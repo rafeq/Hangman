@@ -47,9 +47,3 @@ function App() {
 
 
 export default App;
-/*
-<Letters>
-    <Letter></Letter><Letter></Letter>
-    .... //Eventually we will display all the available letters here: A - Z
-  </Letters> 
-  */
