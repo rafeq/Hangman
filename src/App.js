@@ -5,49 +5,6 @@ import Solution from './Solution'
 import Letters from './Letters'
 
 
-/*let letterStatus={  
-  "A": false,
-  "B": false,
-  "C":false,
-  "D":false,
-  "E":false,
-  "F":false,
-  "G":false,
-  "H":false,
-  "I":false,
-  "J":false,
-  "K":false,
-  "L":false,
-  "M":false,
-  "N":false,
-  "O":false,
-  "P":false,
-  "Q":false,
-  "R":false,
-  "S":false,
-  "T":false,
-  "U":false,
-  "V":false,
-  "W":false,
-  "X":false,
-  "Y":false,
-  "Z":false,}*/
-
-/*function DisplayLetters() {
-  let lettersArray = []
-  for (let i = 65; i <= 90; i++) {
-    lettersArray.push(<div  key={String.fromCharCode(i)} >{String.fromCharCode(i)}</div>)
-  }
-
-  return (
-    <div>
-      {lettersArray}
-    </div>
-  )
-
-}*/
-
-
 function generateLetterStatuses() {
   let letterStatus = {}
   for (let i = 65; i < 91; i++) {
